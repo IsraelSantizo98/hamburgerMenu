@@ -1,0 +1,38 @@
+body {
+  font-family: "Muli", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, #3f37ae, #4238b3, #121568);
+}
+.wrapper {
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav ul {
+  margin: 0;
+  padding: 0;
+}
+.header nav ul li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-flex;
+  color: #fff;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.left {
+}
+.right {
+}
