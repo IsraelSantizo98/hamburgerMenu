@@ -1,2 +1,2 @@
 # hamburgerMenu
-Landing Page con menu de hamburguesa lateral
+Landing Page con menu de hamburguesa lateral reponsive
