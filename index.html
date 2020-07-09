@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,11 +16,10 @@
   </head>
   <body>
     <div class="wrapper">
+      <i class="fas fa-bars burger-button" id="burger-menu"></i>
       <div class="header">
-        <div class="sideMenu">
-          <i class="fas fa-bars"></i>
-        </div>
-        <nav>
+        <div class="sideMenu"></div>
+        <nav class="menu">
           <ul>
             <li>
               <a href="#">Home</a>
@@ -47,18 +46,32 @@
               non. Ad minima culpa rem facilis provident fuga animi perferendis
               vel sed suscipit. Consectetur facere
             </p>
-            <button class="btn">Learn More</button>
+            <button id="btnM" class="btn">Learn More</button>
+            <div class="overlay" id="overlay">
+              <div class="modal" id="modal">
+                <div class="close" id="close">
+                  <i class="fas fa-times" id="icon"></i>
+                </div>
+                <h1>Atencion!</h1>
+                <p>Estas a punto de crear un modal muy engasado</p>
+                <p>Te gusto?</p>
+                <div class="modal-buttons">
+                  <button class="button primary" id="hide-modal">
+                    Si, esta en todo
+                  </button>
+                  <button class="button warning" id="close-modal">
+                    No, :(
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="right">
-            <img
-              src="assets/mainPhoto.svg"
-              alt="Foto principal de la pagina"
-              width="500px"
-              height="500px"
-            />
+            <img src="assets/mainPhoto.svg" alt="Foto principal de la pagina" />
           </div>
         </div>
       </section>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
